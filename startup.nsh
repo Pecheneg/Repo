@@ -79,7 +79,6 @@ fwpiaupd -u -bin -o -ni -pia BMC_0123.ima
 echo ""
 echo "BMC 01.23 Update completed"
 
-
 echo ""
 echo "Update FRUSDR rev 0.18 using FRUSDR utility"
 frusdr -cfg master.cfg
@@ -91,7 +90,6 @@ echo Flashing BIOS R0046...
 IFlash32.efi R0047.cap /u /ni
 echo ""
 echo "BIOS R0047 update completed..."
-
 
 echo ""
 echo ""
